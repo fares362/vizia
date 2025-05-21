@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VIZIA - Réseau social scolaire</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>VIZIA</h1>
+  <button id="loginBtn">S'inscrire / Se connecter</button>
+</header>
+
+<main>
+  <section id="feed">
+    <!-- Vidéos à scroller ici -->
+    <p>Bienvenue sur VIZIA, ton réseau social vidéo scolaire.</p>
+  </section>
+  <button id="postVideoBtn">Poster une vidéo</button>
+  <input type="file" id="videoUpload" accept="video/*" style="display:none" />
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
